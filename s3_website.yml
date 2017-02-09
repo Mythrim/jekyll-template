@@ -3,7 +3,7 @@
 
 # Update your S3 bucket name here
 # The bucket name must not have https or slashes
-s3_bucket: <bucket_name>
+s3_bucket: mythri.m
 
 index_document: index.html
 error_document: error.html
