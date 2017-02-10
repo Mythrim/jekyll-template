@@ -3,25 +3,259 @@ h1 {
   text-align: center;
 }
 
-.block {
-  background-color: $grey-lighter-color;
-  border: 1px $border-color solid;
-  box-shadow: 0 2px 5px $black-light-color;
-  text-align: justify;
-}
+// .block {
+//   background-color: $grey-lighter-color;
+//   border: 1px $border-color solid;
+//   box-shadow: 0 2px 5px $black-light-color;
+//   text-align: justify;
+// }
 
 .mom-header {
   display: flex;
   justify-content: space-between;
   padding: 0 15px;
-
-  .header-text {
-    align-self: center;
-    font-size: 1.4em;
-    font-weight: 900;
-  }
 }
+.notes{
+  width: 100%;
+  height: 100%;
+  background-image:url("/img/banner.jpg");
+
+}
+
+  
 
 .middle {
-  text-align: center;
+   text-align: center;
+   margin-top: 40%;
+ }
+.mock{
+  width: 30%;
+  height:100px;
+  justify-content: center;
 }
+
+
+.roundedbutton{
+  width: 281.6px;
+  height: 60.4px;
+  border-radius: 30.2px;
+  background-color: #1ea2ff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border:1px solid #1ea2ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Roboto;
+	font-size: 21px;
+  text-align: center;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;  
+  justify-content: center;
+}
+.roundedbutton:hover {
+	background-color: #1ea2ff;
+}
+.roundedbutton:active {
+	position:relative;
+	top:1px;
+}
+.logo{
+  display: flex;
+  width: 100%;
+  height:100%;
+  justify-content: center;
+}
+.mock1{
+  width: 100%;
+  height:100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.mock2{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.center{
+  text-align: center;
+  font-size: 40px;
+	font-family:Roboto;
+color: #000000;  
+}
+.secline{
+  text-align: center;
+  font-size: 21px;
+	font-family:Roboto;
+color: #000000; 
+
+}
+
+// .texclr{
+// width: 466px;
+//   height: 23px;
+//   font-family: Roboto;
+//   color: #ffffff;
+// }
+.space{
+  margin-bottom: 10em;
+}
+
+.blue{
+  width: 100%;
+  height: 369px;
+  background-image: url("/img/insights_bg.jpg");
+}
+.user{
+  width: 100%;
+  height: 913.9px;
+  background-color: #273140;
+}
+.mom{
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/mock_two.png");
+  background-repeat: no-repeat;
+}
+// .texclr{
+// width: 466px;
+//   height: 23px;
+//   font-family: Roboto;
+//   color: #ffffff;
+// }
+.second {
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+}
+
+.button2 {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #0000ff;
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+  border:1px solid #1ea2ff;
+  display: inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Roboto;
+  font-size:20px;
+  text-align:center;
+  padding:15px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  justify-content: center;
+}
+
+.button2:hover {
+  background-color:#1ea2ff;
+}
+.button2:active {
+  position: relative;
+  top:1px;
+}
+
+
+
+.third {
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+}
+
+.blue {
+  width: 100%;
+  height: 300px;
+      background-image: url("/img/insights_bg.jpg");
+    //background-size: cover;
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content: space-around;
+
+}
+
+
+
+
+.user {
+   width: 100%;
+  height: 900px;
+  background-color: #273140;
+  color:#ffffff;
+  
+}
+
+.Shape-45 {
+  width: 70%;
+  height: 0.8px;
+  display: flex;
+  flex-direction: row;
+align-items:center;
+ // flex-alin:center;
+  opacity: 0.1;
+  background-color:#ffffff;
+  border: solid 0.8px #ffffff;
+}
+
+.button3 {
+  width: 280px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #0000ff;
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+  border:1px solid #1ea2ff;
+  display: inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Roboto;
+  font-size:20px;
+  text-align:center;
+  padding:15px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  justify-content: center;
+}
+
+.button3:hover {
+  background-color:#1ea2ff;
+}
+
+.button3:active {
+  position: relative;
+  top:1px;
+}
+
+.Rectangle-16 {
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, #11db4f, #7234ff), linear-gradient(#273140, #273140);
+}
+
+
+
+.touch {
+   width: 100%;
+  height: 600px;
+  background-color: #212a38;
+}
+//
+
+.blue{
+  width: 100%;
+  height: 369px;
+  background-image: url("/img/insights_bg.jpg");
+}
+.user{
+  width: 100%;
+  height: 913.9px;
+  background-color: #273140;
+}
+
+
+
