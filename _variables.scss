@@ -1,0 +1,23 @@
+//Ovverride your custom style here
+$enable-flex: true !default;
+
+//Override the bootstrap typography display heading style
+$headings-line-height: 1 !default;
+
+$display1-size: 6em !default;
+$display2-size: 5.5em !default;
+$display3-size: 4.5em !default;
+$display4-size: 3.5em !default;
+
+$display1-weight: 500 !default;
+$display2-weight: 400 !default;
+$display3-weight: 300 !default;
+$display4-weight: 200 !default;
+$display-line-height: $headings-line-height !default;
+
+//Define your color variable here
+$grey-color: #7e7e7e;
+$black-light-color: #232323;
+$border-color: #4d4d50;
+$grey-lighter-color: #ddd;
+$black: #000;

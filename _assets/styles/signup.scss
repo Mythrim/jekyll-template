@@ -1,0 +1,86 @@
+.sign-back{
+  width: 100%;
+  height: 100%;
+  //background-color:  #f4f7f8;
+}
+  .logo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+#bdy
+{
+  background-color:  #f4f7f8;
+}
+.content
+{
+  background-color:  #ffffff;
+  height:80%;
+  width:60%;
+  margin:auto;
+  border: solid 1px #000;
+  text-align:center;
+}
+input[type=text]{
+  width: 100%
+  //text-align: left;
+}
+.form_items{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.button1 {
+ display: flex;  
+ width: 150px;
+ height: 30px;
+ border-radius: 30px;
+ background-color: #0000ff ;
+ -moz-border-radius:30px;
+ -webkit-border-radius:30px;
+ border:1px solid #1ea2ff ;
+ color:#ffffff ;
+ font-family:Roboto;
+ font-size:20px;
+ text-align:center;
+ text-shadow: 0px 1px 0px #3d768a ;
+ justify-content: center;
+}
+
+.Login-with-Google { 
+width: 381px;
+height: 49px; 
+font-family: Roboto; 
+font-size: 50px; 
+font-weight: normal; 
+font-style: normal; 
+font-stretch: normal; 
+line-height: normal; 
+letter-spacing: normal; 
+text-align: left; 
+color: #ffffff; }
+
+.Rounded-Rectangle-2-copy-3{
+  width: 591px;
+  height: 130px;
+  border-radius: 49px;
+  background-image: linear-gradient(330deg, #26c867, #00b7a4), linear-gradient(#f3645c, #f3645c);
+}
+
+.button2{ 
+ //display: flex;
+ //align-items: center;
+ width: 200px;
+ height: 30px;
+ border-radius: 30px;
+ background-color: #f3645c ;
+ -moz-border-radius:30px;
+ -webkit-border-radius:30px;
+ color:white;
+ font-family:Roboto;
+ font-size:20px;
+ padding-bottom: 15px;
+ //justify-content: center;
+}
