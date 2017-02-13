@@ -11,14 +11,41 @@ h1 {
 // }
 
 .mom-header {
+  width: 100%;
+  height: 50%;
+  background-image:url("/img/banner.jpg");
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding: 0 15px;
 }
+.headcontainer{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.backgroundimg {
+ width: 100%;
+  height: 50%;
+  background-image:url("/img/banner.jpg");
+  background: no-repeat;
+}
+
+
 .notes{
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-image:url("/img/banner.jpg");
+  background-size: cover;
+  
+
+}
+.logo1{
+  width:100%;
+  margin-bottom: -5%;
+  display: flex;
+  justify-content: row;
+  background-image:url("/img/bannercopy.jpg");
+  background: no-repeat;
 
 }
 
@@ -26,16 +53,28 @@ h1 {
 
 .middle {
    text-align: center;
-   margin-top: 40%;
+   font-size: 56px;
+   font-family: Roboto;
+   margin-top: 10%;
+ }
+ .middle1{
+   font-family: Roboto;
+   font-size: 32px;
+   margin-bottom: 10%;
+ }
+ .middle2{
+  font-family: Roboto;
+   font-size: 22px; 
  }
 .mock{
-  width: 30%;
-  height:100px;
+  width: 100%;
+  height:100%;
   justify-content: center;
 }
 
 
 .roundedbutton{
+  margin-bottom:1.5%;
   width: 281.6px;
   height: 60.4px;
   border-radius: 30.2px;
@@ -131,32 +170,31 @@ color: #000000;
   background-color: #ffffff;
 }
 
-.button2 {
-  width: 150px;
-  height: 40px;
-  border-radius: 30px;
-  background-color: #0000ff;
-  -moz-border-radius:30px;
-  -webkit-border-radius:30px;
-  border:1px solid #1ea2ff;
-  display: inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Roboto;
-  font-size:20px;
-  text-align:center;
-  padding:15px 30px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #3d768a;
+.button2{
+  width: 281.6px;
+  height: 60.4px;
+  border-radius: 30.2px;
+  background-color: #2b87f8;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border:1px solid #2b87f8;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Roboto;
+	font-size: 21px;
+  text-align: center;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff; 
   justify-content: center;
 }
-
 .button2:hover {
-  background-color:#1ea2ff;
+	background-color: #2b87f8;
 }
 .button2:active {
-  position: relative;
-  top:1px;
+	position:relative;
+	top:1px;
 }
 
 
@@ -246,11 +284,6 @@ align-items:center;
 }
 //
 
-.blue{
-  width: 100%;
-  height: 369px;
-  background-image: url("/img/insights_bg.jpg");
-}
 .user{
   width: 100%;
   height: 913.9px;
